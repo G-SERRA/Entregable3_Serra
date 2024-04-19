@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lollapartooza</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/scripts.js" defer></script>
+</head> 
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1><a href="index.html">Lollapartooza</a></h1>
+            <nav class="navegacion-principal">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Boletos</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Lollapartooza</h2>
+                <p>Marzo 2024, Córdoba, Argentina</p>
+            </div>
+            <a href="boletos.html" class="boton contenido-video">COMPRAR BOLETOS</a>
+        </div>
+        <video autoplay muted loop>
+            <source src="../video/concierto.mp4" type="video/mp4">
+            <source src="../video/concierto.ogg" type="video/ogg">
+            <source src="../video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <section class="sobre-festival contenedor">
+        <div class="imagen">
+            <picture>
+                <source srcset="../img/imagen_vocalista.avif" type="image/avif">
+                <source srcset="../img/imagen_vocalista.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="img/imagen_vocalista.jpg" alt="imagen vocalista">
+            </picture>
+        </div>
+        <div class="contenido-festival">
+            <h2>Sobre el Festival</h2>
+            <p class="fecha">15 y 16 de Marzo 2024, Córdoba, Argentina</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing tenetur et est aliquid cum animi deleniti di elit. Minus impedit eligendi quasi et earum ab ad laborum quaerat, amet aperiam, magni molestias! Reprehenderit tenetur et est aliquid cum animi deleniti?</p>
+        </div>
+    </section>
+    
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+    </section>
+
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galería</h3>
+        <ul class="galeria-imagenes"></ul>
+    </section>
+
+    <section id="boletos" class="boletos bg-verde">
+        <h3>Boletos</h3>
+        <div class="contenedor-boletos contenedor">
+            <div class="basico pase">
+                <p class="nombre-pase">Pase 1 Día</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y Bebida</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$80.000</p>
+                </footer>
+            </div>
+            <div class="premium pase">
+                <p class="nombre-pase">Pase 2 Días</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y Bebida</li>
+                        <li>Camisa del Evento</li>
+                        <li>Acceso VIP</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$150.000</p>
+                </footer>
+            </div>
+        </div>
+        <a href="boletos.html" class="boton">COMPRAR BOLETOS</a>
+    </section>
+
+    <footer class="site-footer">
+        <p>Lollapartooza. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

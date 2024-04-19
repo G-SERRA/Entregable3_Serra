@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar Entradas - Lollapartooza</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/scripts.js" defer></script>
+
+</head> 
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1><a href="index.html">Lollapartooza</a></h1>
+            <nav>
+                <a href="index.html">Inicio</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="formulario-compra" class="formulario-compra contenedor">
+        <h3>Compra de Entradas</h3>
+        <form id="formulario" class="formulario">
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+            </div>
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Ingrese su email" required>
+            </div>
+            <div class="campo">
+                <label for="pase">Tipo de Pase:</label>
+                <select id="pase" name="pase" required>
+                    <option value="">Seleccione el tipo de pase</option>
+                    <option value="Viernes 15">Viernes 15 ($80.000)</option>
+                    <option value="Sábado 16">Sábado 16 ($80.000)</option>
+                    <option value="2 Días">Pase de 2 Días ($150.000)</option>
+                </select>
+            </div>
+            <div class="campo">
+                <label for="cantidad">Cantidad de Entradas:</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" placeholder="Ingrese la cantidad" required>
+            </div>
+            <div class="campo">
+                <button type="button" id="boton-comprar" class="boton comprar">Continuar</button>
+            </div>
+        </form>
+    </section>
+
+    <div id="resumen-carrito"></div>
+    
+    <section id="boletos" class="boletos bg-verde">
+        <h3>Entradas</h3>
+        <div class="contenedor-boletos contenedor">
+            <div class="basico pase">
+                <p class="nombre-pase">Pase 1 Día</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y Bebida</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$80.000</p>
+                </footer>
+            </div>
+            <div class="premium pase">
+                <p class="nombre-pase">Pase 2 Días</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y Bebida</li>
+                        <li>Camisa del Evento</li>
+                        <li>Acceso VIP</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$150.000</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="site-footer">
+        <p>Lollapartooza. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

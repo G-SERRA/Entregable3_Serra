@@ -1,0 +1,64 @@
+{
+  "lineup": [
+    {
+      "dia": "Viernes 15",
+      "bgClass": "bg-amarillo",
+      "escenarios": [
+        {
+          "nombre": "Escenario Rock",
+          "imagen": "../img/icono_rock.png",
+          "artistas": [
+            { "hora": "24:00", "nombre": "Metallica" },
+            { "hora": "22:00", "nombre": "Pearl Jam" },
+            { "hora": "20:00", "nombre": "KoRn" },
+            { "hora": "19:00", "nombre": "Muse" },
+            { "hora": "18:00", "nombre": "Breaking Benjamin" },
+            { "hora": "17:00", "nombre": "30 Seconds to Mars" }
+          ]
+        },
+        {
+          "nombre": "Escenario EDM",
+          "imagen": "../img/icono_edm.png",
+          "artistas": [
+            { "hora": "24:00", "nombre": "Deadmau5" },
+            { "hora": "22:00", "nombre": "Tïesto" },
+            { "hora": "20:00", "nombre": "Hardwell" },
+            { "hora": "19:00", "nombre": "Dash Berlin" },
+            { "hora": "18:00", "nombre": "Fedde Legrand" },
+            { "hora": "17:00", "nombre": "Audien" }
+          ]
+        }
+      ]
+    },
+    {
+      "dia": "Sábado 16",
+      "bgClass": "bg-verde",
+      "escenarios": [
+        {
+          "nombre": "Escenario Rock",
+          "imagen": "../img/icono_rock.png",
+          "artistas": [
+            { "hora": "24:00", "nombre": "Red Hot Chili Peppers" },
+            { "hora": "22:00", "nombre": "The Killers" },
+            { "hora": "20:00", "nombre": "Deftones" },
+            { "hora": "19:00", "nombre": "Limp Bizkit" },
+            { "hora": "18:00", "nombre": "Papa Roach" },
+            { "hora": "17:00", "nombre": "Lamb of God" }
+          ]
+        },
+        {
+          "nombre": "Escenario EDM",
+          "imagen": "../img/icono_edm.png",
+          "artistas": [
+            { "hora": "24:00", "nombre": "Paul Van Dyk" },
+            { "hora": "22:00", "nombre": "Armin Van Buuren" },
+            { "hora": "20:00", "nombre": "Above & Beyond" },
+            { "hora": "19:00", "nombre": "Eric Prdyz" },
+            { "hora": "18:00", "nombre": "Ferry Corsten" },
+            { "hora": "17:00", "nombre": "Vini Vici" }
+          ]
+        }
+      ]
+    }
+  ]
+}
